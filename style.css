@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "AdiHaus";
+  src: URL("https://assets.codepen.io/6060109/adihaus_regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AdiHaus";
+  src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+html,
+body {
+  min-height: 100vh;
+  min-width: 100%;
+  font-family: "AdiHaus";
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+}
+
+.hero {
+  background-image: url("https://assets.codepen.io/6060109/athlete-girl.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
+.title {
+  margin-top: 30px;
+  font-size: 40px;
+  text-align: center;
+  color: #423a3a;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.title h2:first-child {
+  font-weight: 400;
+  color: #cd3a24;
+  margin-bottom: 10px;
+}
+
+.content-container {
+  padding: 0 40px 80px 40px;
+  text-align: center;
+}
+
+.info-text {
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  line-height: 28px;
+  color: #333333;
+}
+
+.email-form {
+  display: flex;
+  height: 50px;
+}
+
+input {
+  width: 85%;
+  padding-left: 24px;
+  border: 1px solid #333333;
+  border-right: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  outline: none;
+  opacity: 0.5;
+}
+
+::placeholder {
+  color: #828282;
+  font-family: "AdiHaus";
+}
+
+button {
+  width: 15%;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  background-color: #333333;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: -15px;
+  z-index: 2;
+  box-shadow: 0px 15px 20px 0px #423a3a26;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
