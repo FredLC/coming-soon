@@ -25,6 +25,13 @@ body {
   min-height: 100vh;
   min-width: 100%;
   font-family: "AdiHaus";
+  display: flex;
+}
+
+.container {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -41,6 +48,10 @@ body {
   width: 100%;
 }
 
+.sub-container {
+  padding: 20px 30px;
+}
+
 .title {
   margin-top: 30px;
   font-size: 40px;
@@ -55,12 +66,7 @@ body {
   margin-bottom: 10px;
 }
 
-.sub-container {
-  padding: 0 40px 80px 40px;
-  text-align: center;
-}
-
-.info-text {
+p {
   margin: auto;
   margin-top: 15px;
   margin-bottom: 30px;
@@ -106,21 +112,19 @@ button {
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
-  .container {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   body {
-    display: flex;
     background-image: url("https://assets.codepen.io/6060109/waves.png");
+    background-size: cover;
+  }
+
+  h2 {
+    font-size: 64px;
   }
 
   .container {
     width: 55%;
+    text-align: left;
   }
 
   .desktop-image {
@@ -129,15 +133,8 @@ button {
     background-image: url("https://assets.codepen.io/6060109/shoes.png");
   }
 
-  .sub-container {
-    text-align: left;
-    padding: 100px;
-    padding-bottom: 30px;
-  }
-
   .logo {
-    margin: 20px 0;
-    padding-left: 100px;
+    margin: 30px 30px 100px;
   }
 
   .hero-mobile {
