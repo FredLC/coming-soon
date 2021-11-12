@@ -33,7 +33,7 @@ body {
 }
 
 .hero-mobile {
-  background-image: url("https://assets.codepen.io/6060109/athlete-girl.png");
+  background-image: url("https://assets.codepen.io/6060109/mobile-shoes.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -51,7 +51,7 @@ body {
 
 .title h2:first-child {
   font-weight: 400;
-  color: #cd3a24;
+  color: #2f80ed;
   margin-bottom: 10px;
 }
 
@@ -94,10 +94,9 @@ button {
   border: none;
   outline: none;
   border-radius: 3px;
-  background-color: #333333;
+  background: linear-gradient(135deg, #7c7c7c 0%, #2b2828 100%);
   color: white;
-  font-weight: 700;
-  font-size: 18px;
+  font-size: 44px;
   margin-left: -15px;
   z-index: 2;
   box-shadow: 0px 15px 20px 0px #423a3a26;
@@ -117,24 +116,23 @@ button {
 @media only screen and (min-width: 768px) {
   body {
     display: flex;
-    background-image: url("https://assets.codepen.io/6060109/destop-bg.png");
+    background-image: url("https://assets.codepen.io/6060109/waves.png");
   }
 
   .container {
-    width: 50%;
+    width: 55%;
   }
 
   .desktop-image {
-    width: 50%;
+    width: 45%;
     display: block;
-    background-image: url("https://assets.codepen.io/6060109/athlete-big.png");
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 40% 100%);
+    background-image: url("https://assets.codepen.io/6060109/shoes.png");
   }
 
   .sub-container {
     text-align: left;
     padding: 100px;
-    padding-bottom: 0;
+    padding-bottom: 30px;
   }
 
   .logo {
